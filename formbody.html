@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire Body</title>
+	<link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+	<section class="form center sec-padd">
+		<h2>Input your body new content</h2>
+		<form action="" class="form-login"  method="post" /> 
+			<input name="Quote text" type="text" id="quote" required="" placeholder="Quote text" /> </br>
+			<input name="Why choose Us" type="text" id="choose" required="" placeholder="Why Choose Us" /> </br>
+			<input name="Market" type="text" id="market" required="" placeholder="Market" /> </br>
+			<input name="Market sub" type="text" id="m_sub" required="" placeholder="Market sub" /> </br>
+			<input name="Efficiency" type="text" id="effi" required="" placeholder="Efficiency" /> </br>
+			<input name="Efficiency sub" type="text" id="e_sub" required="" placeholder="Efficiency sub" /> </br>
+			<input name="Innovation" type="text" id="inno" required="" placeholder="Innovation" /> </br>
+			<input name="Innovation sub" type="text" id="i_sub" required="" placeholder="Innovation sub" /> </br>
+			<input name="Our services" type="text" id="services" required="" placeholder="Services" /> </br>
+			<input name="Partnership" type="text" id="partner" required="" placeholder="Partnership" /> </br>
+			<input name="Partnership sub" type="text" id="p_sub" required="" placeholder="Partnership sub" /> </br>
+			<input name="Web" type="text" id="web" required="" placeholder="Web" /> </br>
+			<input name="Web sub" type="text" id="w_sub" required="" placeholder="Web sub" /> </br>
+			<input name="Medias" type="text" id="medias" required="" placeholder="Medias" /> </br>
+			<input name="Medias sub" type="text" id="med_sub" required="" placeholder="Medias sub" /> </br>
+			<input name="Analytics" type="text" id="analy" required="" placeholder="Analytics" /> </br>
+			<input name="Analytics sub" type="text" id="a_sub" required="" placeholder="Analytics sub" /> </br>
+			<input name="Referral" type="text" id="ref" required="" placeholder="Referral" /> </br>
+			<input name="Referral sub" type="text" id="r_sub" required="" placeholder="Referral sub" /> </br>
+			<button class='thm-btn' onclick="storeData()" type="button">Submit</button>
+		</form>
+	</section>
+
+	<script type="text/javascript">
+  		function storeData(){
+     		var quote = document.getElementById("quote");
+     		var choose = document.getElementById("choose");
+     		var market = document.getElementById("market");
+     		var market_sub = document.getElementById("m_sub");
+     		var efficiency = document.getElementById("effi");
+     		var efficiency_sub = document.getElementById("e_sub");
+     		var innovation = document.getElementById("inno");
+     		var innovation_sub = document.getElementById("i_sub");
+     		var services = document.getElementById("services");
+     		var partner = document.getElementById("partner");
+     		var partner_sub = document.getElementById("p_sub");
+     		var web = document.getElementById("web");
+     		var web_sub = document.getElementById("w_sub");
+     		var medias = document.getElementById("medias");
+     		var medias_sub = document.getElementById("med_sub");
+     		var analy = document.getElementById("analy");
+     		var analy_sub = document.getElementById("a_sub");
+     		var referral = document.getElementById("ref");
+     		var referral_sub = document.getElementById("r_sub");
+     		localStorage.setItem("quote", quote.value);
+     		localStorage.setItem("choose", choose.value);
+     		localStorage.setItem("market", market.value);
+     		localStorage.setItem("market_sub", market_sub.value);
+     		localStorage.setItem("efficiency", efficiency.value);
+     		localStorage.setItem("efficiency_sub", efficiency_sub.value);
+     		localStorage.setItem("innovation", innovation.value);
+     		localStorage.setItem("innovation_sub", innovation_sub.value);
+     		localStorage.setItem("services", services.value);
+     		localStorage.setItem("partner", partner.value);
+     		localStorage.setItem("partner_sub", partner_sub.value);
+     		localStorage.setItem("web", web.value);
+     		localStorage.setItem("web_sub", web_sub.value);
+     		localStorage.setItem("medias", medias.value);
+     		localStorage.setItem("medias_sub", medias_sub.value);
+     		localStorage.setItem("analy", analy.value);
+     		localStorage.setItem("analy_sub", analy_sub.value);
+     		localStorage.setItem("referral", referral.value);
+     		localStorage.setItem("referral_sub", referral_sub.value);
+   		}
+	</script>
+</body>
+</html>
