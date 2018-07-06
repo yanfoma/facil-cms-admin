@@ -14,9 +14,11 @@ input,textarea {
   outline: none;
   box-shadow: none;
   transition: all 0.3s ease-in-out;
-  vertical-align: middle;
-
 }
+
+button {border:none; outline:none; box-shadow: none; display: block; padding: 0; background: transparent;}
+input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px; line-height: 28px; outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
+
 
 .sec-padd {
   padding: 75px 0 80px;
