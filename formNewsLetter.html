@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire News Letter</title>
+	<link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+	<section class="form center sec-padd">
+		<h2>Input your News Letter new content</h2>
+		<form action="" class="form-login"  method="post" /> 
+			<input name="Name" type="text" id="name" required="" placeholder="Name" /> </br>
+			<input name="Email" type="email" id="email" required="" placeholder="Email" /> </br>
+			<button class='thm-btn' onclick="storeData()" type="button">Submit</button>
+		</form>
+	</section>
+
+	<script type="text/javascript">
+  		function storeData(){
+     		var name = document.getElementById("name");
+     		var email = document.getElementById("email");
+     		localStorage.setItem("name", phone.value);
+     		localStorage.setItem("email", email.value);
+   		}
+	</script>
+</body>
+</html>

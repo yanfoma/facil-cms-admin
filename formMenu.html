@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire Menu</title>
+	<link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+	<section class="form center sec-padd">
+		<h2>Input your menu new content</h2>
+		<form action="" class="form-login"  method="post" /> 
+			<input name="tab1" type="text" id="tab1" required="" placeholder="tab1" /> </br>
+			<input name="tab2" type="text" id="tab2" required="" placeholder="tab2" /> </br>
+			<input name="tab3" type="text" id="tab3" required="" placeholder="tab3" /> </br>
+			<input name="tab4" type="text" id="tab4" required="" placeholder="tab4" /> </br>
+			<input name="tab5" type="text" id="tab5" required="" placeholder="tab5" /> </br>
+			<input name="tab6" type="text" id="tab6" required="" placeholder="tab6" /> </br>
+			<input name="tab7" type="text" id="tab7" required="" placeholder="tab7" /> </br>
+			<input name="tab8" type="text" id="tab8" required="" placeholder="tab8" /> </br>
+			<button class='thm-btn' onclick="storeData()" type="button">Submit</button>
+		</form>
+	</section>
+
+	<script type="text/javascript">
+  		function storeData(){
+     		var tab1 = document.getElementById("tab1");
+     		var tab2 = document.getElementById("tab2");
+     		var tab3 = document.getElementById("tab3");
+     		var tab4 = document.getElementById("tab4");
+     		var tab5 = document.getElementById("tab5");
+     		var tab6 = document.getElementById("tab6");
+     		var tab7 = document.getElementById("tab7");
+     		var tab8 = document.getElementById("tab8");
+     		localStorage.setItem("tab1", tab1.value);
+     		localStorage.setItem("tab2", tab2.value);
+     		localStorage.setItem("tab3", tab3.value);
+     		localStorage.setItem("tab4", tab4.value);
+     		localStorage.setItem("tab5", tab5.value);
+     		localStorage.setItem("tab6", tab6.value);
+     		localStorage.setItem("tab7", tab7.value);
+     		localStorage.setItem("tab8", tab8.value);
+     		
+     		
+   		}
+	</script>
+</body>
+</html>

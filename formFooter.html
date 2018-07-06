@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire Footer</title>
+	<link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+	<section class="form center sec-padd">
+		<h2>Input your footer new content</h2>
+		<form action="" class="form-login"  method="post" /> 
+			<input name="Title1" type="text" id="title1" required="" placeholder="Title1" /> </br>
+			<input name="Title1_description" type="text" id="description1" placeholder="Description of Title1..." required="" /> </br>
+			<input name="Title2" type="text" id="title2" required="" placeholder="Title2" /> </br>
+
+			<input name="Item1" type="text" id="item1" required="" placeholder="Item1" /> </br>
+			<input name="Item2" type="text" id="item2" required="" placeholder="Item2" /> </br>
+			<input name="Item3" type="text" id="item3" required="" placeholder="Item3" /> </br>
+			<input name="Item4" type="text" id="item4" required="" placeholder="Item4" /> </br>
+
+			<input name="Item1_link" type="text" id="item1_link" required="" placeholder="Item1_link" /> </br>
+			<input name="Item2_link" type="text" id="item2_link" required="" placeholder="Item2_link" /> </br>
+			<input name="Item3_link" type="text" id="item3_link" required="" placeholder="Item3_link" /> </br>
+			<input name="Item4_link" type="text" id="item4_link" required="" placeholder="Item4_link" /> </br>
+
+			<input name="Contact" type="text" id="contact" required="" placeholder="Contact" /> </br>
+			<input name="Adress" type="text"id="adress" placeholder="Adress" required="" /> </br>
+			<input name="Phone" type="text" id="phone" required="" placeholder="Phone" /> </br>
+			<input name="Email" type="email" id="email" required="" placeholder="Email" /> </br>
+			<input name="Facebook_link" type="text" id="facebook_link" required="" placeholder="Facebook_link" /> </br>
+			<input name="Youtube_link" type="text" id="youtube_link" required="" placeholder="Youtube_link" /> </br>
+			<input name="Google_plus_link" type="text" id="google_plus_link" required="" placeholder="Google_plus_link" /> </br>
+			<input name="Linkedin_link" type="text" id="linkedin_link" required="" placeholder="Linkedin_link" /> </br>
+
+			<input name="Newsletter" type="text" id="newsletter" required="" placeholder="Newsletter" /> </br>
+			<input name="Name" type="text" id="name" required="" placeholder="Your Name" /> </br>
+			<input name="Email" type="text" id="email" required="" placeholder="Your Email" /> </br>
+
+			<input name="Company_name" type="text" id="company_name" required="" placeholder="Company_name" /> </br>
+			<input name="Company_website_link" type="text" id="company_website_link" required="" placeholder="Company_website_link" /> </br>
+
+			
+			<button class='thm-btn' onclick="storeData()" type="button">Submit</button>
+		</form>
+	</section>
+
+	<script type="text/javascript">
+  		function storeData(){
+     		var title1 = document.getElementById("title1");
+     		var description1 = document.getElementById("description1");
+     		var title2 = document.getElementById("title2");
+     		var item1 = document.getElementById("item1");
+     		var item2 = document.getElementById("item2");
+     		var item3 = document.getElementById("item3");
+     		var item4 = document.getElementById("item4");
+     		var item1_link = document.getElementById("item1_link");
+     		var item2_link = document.getElementById("item2_link");
+     		var item3_link = document.getElementById("item3_link");
+     		var item4_link = document.getElementById("item4_link");
+     		var contact = document.getElementById("contact");
+     		var adress = document.getElementById("adress");
+     		var phone = document.getElementById("phone");
+     		var email = document.getElementById("email");
+     		var facebook_link = document.getElementById("facebook_link");
+     		var youtube_link = document.getElementById("youtube_link");
+     		var google_plus_link = document.getElementById("google_plus_link");
+     		var linkedin_link = document.getElementById("linkedin_link");
+     		var newsletter = document.getElementById("newsletter");
+     		var name = document.getElementById("name");
+     		var email1 = document.getElementById("email1");
+     		var company_name = document.getElementById("company_name");
+     		var company_website_link = document.getElementById("company_website_link");
+
+
+     		
+     		localStorage.setItem("title1", title1.value);
+     		localStorage.setItem("description1", description1.value);
+     		localStorage.setItem("title2", title2.value);
+     		localStorage.setItem("item1", item1.value);
+     		localStorage.setItem("item2", item2.value);
+     		localStorage.setItem("item3", item3.value);
+     		localStorage.setItem("item4", item4.value);
+     		localStorage.setItem("item1_link", item1_link.value);
+     		localStorage.setItem("item2_link", item2_link.value);
+     		localStorage.setItem("item3_link", item3_link.value);
+     		localStorage.setItem("item4_link", item4_link.value);
+     		localStorage.setItem("contact", contact.value);
+     		localStorage.setItem("adress", adress.value);
+     		localStorage.setItem("phone", phone.value);
+     		localStorage.setItem("email", email.value);
+     		localStorage.setItem("facebook_link", facebook_link.value);
+     		localStorage.setItem("youtube_link", youtube_link.value);
+     		localStorage.setItem("google_plus_link", google_plus_link.value);
+     		localStorage.setItem("linkedin_link", linkedin_link.value);
+     		localStorage.setItem("newsletter", newsletter.value);
+     		localStorage.setItem("name", name.value);
+     		localStorage.setItem("email1", email1.value);
+     		localStorage.setItem("company_name", company_name.value);
+     		localStorage.setItem("company_website_link", company_website_link.value);
+     		
+     		
+   		}
+	</script>
+</body>
+</html>

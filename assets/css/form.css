@@ -1,0 +1,91 @@
+button {
+  border:none;
+  outline:none;
+  box-shadow: none;
+  display: block;
+  padding: 0;
+  background: transparent;
+}
+input,textarea {
+  font-family: 'Hind', sans-serif;
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  vertical-align: middle;
+
+}
+
+.sec-padd {
+  padding: 75px 0 80px;
+}
+.sec-padd2 {
+  padding: 75px 0 30px;
+}
+
+.sec-padd-top {
+  padding-top: 75px;
+}
+.sec-padd-bottom {
+  padding-bottom: 80px;
+}
+.no-padd {
+  padding: 0px;
+}
+.clear_fix { clear:both;}
+.clear_fix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.thm-btn {
+  position: relative;
+  background: #387eb2;
+  font-size: 14px;
+  line-height: 46px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 3px solid #387eb2;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding: 0 38px;
+  transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+.thm-btn:hover {
+  background: transparent;
+  color: #387eb2;
+  transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.form {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form h2 {
+  color: black;
+  font-size: 32px;
+}
+
+.form-login input {
+    position: relative;
+    width: 25%;
+    display: inline-block;
+    margin-right: 6px;
+    padding: 10px 15px 8px;
+    padding-left: 40px;
+    border: 1px solid #387eb2;
+    margin-bottom: 20px;
+}
+.form-login {
+  position: relative;
+  display: block;
+}
